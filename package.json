@@ -1,0 +1,36 @@
+{
+  "name": "emoji-favicon-toolkit",
+  "version": "0.1.0",
+  "description": "Set your favicon to emoji using canvas & cache as /favicon.ico with service workers",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "minify": "uglifyjs --compress --mangle --output ./dist/emoji-favicon-toolkit.min.js -- ./dist/emoji-favicon-toolkit.js",
+    "build": "npm run compile && npm run minify",
+    "start": "cd dist && python -m SimpleHTTPServer 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eligrey/emoji-favicon-toolkit.git"
+  },
+  "keywords": [
+    "emoji",
+    "browser",
+    "dom",
+    "canvas",
+    "favicon",
+    "toolkit",
+    "service"
+  ],
+  "author": "OFTN Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eligrey/emoji-favicon-toolkit/issues"
+  },
+  "homepage": "https://github.com/eligrey/emoji-favicon-toolkit#readme",
+  "devDependencies": {
+    "typescript": "^2.6.2",
+    "uglify-js": "^3.2.2"
+  }
+}

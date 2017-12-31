@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "None",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "es2015.promise",
+      "es5",
+      "scripthost"
+    ]
+  }
+}
