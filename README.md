@@ -10,7 +10,7 @@ This code won't work on pages that don't include the script until browsers chang
 
 ### Static usage
 
-    <link rel="icon" type="text/plain" href="data:,🍔" sizes="any"/>
+    <link rel="icon" type="text/plain" href="data:;charset=utf-8,🍔" sizes="any"/>
 
 ### API usage
 
