@@ -1,6 +1,6 @@
 # Emoji Favicon Toolkit
 
-This code won't work on pages that don't include the script until browsers change how their ServiceWorker implementations handle favicons.
+This code only works in browsers that support ServiceWorker favicons, such as Chrome 72+.
 
 ## Usage
 
